@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         displayDetailsOnTestsThatTriggerWarnings="true"
+         displayDetailsOnTestsThatTriggerDeprecations="true"
+         colors="true">
+    <php>
+        <server name="KERNEL_CLASS" value="FHPlatform\PersistenceBundle\Tests\Util\App\Kernel" />
+        <env name="APP_DEBUG" value="false" />
+        <env name="SYMFONY_DEPRECATIONS_HELPER" value="max[total]=999999" />
+    </php>
+
+    <testsuites>
+        <testsuite name="test">
+            <directory>./tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

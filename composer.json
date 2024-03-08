@@ -1,0 +1,40 @@
+{
+    "name": "fh-platform/config",
+    "type": "symfony-bundle",
+    "description": "FH Platform - Config bundle",
+    "keywords": [],
+    "homepage": "https://github.com/FH-Platform",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FHPlatform\\PersistenceBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FHPlatform\\PersistenceBundle\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Filip Horvat",
+            "email": "fico7489@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "doctrine/doctrine-bundle": "2.*",
+        "doctrine/orm": "2.*",
+        "doctrine/common" : "*",
+        "symfony/yaml": "7.*",
+        "fh-platform/util": "dev-master"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "3.*",
+        "phpunit/phpunit": "10.*",
+        "phpstan/phpstan": "*",
+        "ramsey/uuid-doctrine": "^2.0",
+        "symfony/console": "^7.0"
+    },
+    "minimum-stability": "dev"
+}
