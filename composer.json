@@ -1,7 +1,7 @@
 {
-    "name": "fh-platform/config",
+    "name": "fh-platform/persistence",
     "type": "symfony-bundle",
-    "description": "FH Platform - Config bundle",
+    "description": "FH Platform - Config persistence",
     "keywords": [],
     "homepage": "https://github.com/FH-Platform",
     "license": "MIT",
