@@ -13,8 +13,8 @@ use Symfony\Component\Filesystem\Filesystem;
 
 class TestCase extends KernelTestCase
 {
-    private ContainerInterface $container;
-    private EntityManagerInterface $entityManager;
+    protected ContainerInterface $container;
+    protected EntityManagerInterface $entityManager;
     private static $events = [];
 
     protected function setUp(): void

@@ -5,7 +5,3 @@ services:
 
     FHPlatform\PersistenceBundle\:
         resource: '../src/*'
-
-    FHPlatform\PersistenceBundle\Finder\ProviderFinder:
-        public: true
-
